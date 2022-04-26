@@ -1,0 +1,13 @@
+    <div class="basic-information">
+        <!--basic information-->
+        <h3>Battlestations Sheet</h3>
+        <span>Name</span>
+        <input type="text" name="attr_char_name" />
+        <span>Profession</span>
+        <input type="text" name="attr_char_profession" />
+        <span>Species</span>
+        <input type="text" name="attr_char_Species" />
+        <span>Ability</span>
+        <input type="text" name="attr_char_Ability_1" />
+        <input class="offset" type="text" name="attr_char_Ability_2" />
+    </div>
