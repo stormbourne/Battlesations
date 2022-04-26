@@ -1,0 +1,12 @@
+div.skills {
+    border: 3pt solid black;
+}
+div.skills {
+    grid-column: 2 / span 2;
+    display: grid;
+    grid-template-columns: 70px 73px 49px;
+}
+div.skills button {
+    position: relative;
+    left: 3px;
+}
