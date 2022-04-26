@@ -1,0 +1,12 @@
+div.personal-equipment {
+    border: 3pt solid black;
+}
+div.personal-equipment {
+    grid-column: 1 / span 2;
+    display: grid;
+    border-collapse: collapse;
+    grid-template-columns: 126px 126px 70px 70px;
+}
+div.personal-equipment {
+    grid-column: 3 / span 2;
+}
