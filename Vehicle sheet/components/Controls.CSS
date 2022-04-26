@@ -1,3 +1,6 @@
+div.ship-controls {
+    border: 3pt solid black;
+}
 .navigable-section:not(.active) {
     display: none;
 }
