@@ -1,0 +1,17 @@
+div.ship-hull {
+    height: 642px;
+    width: 142px;
+    display: grid;
+    grid-template-columns: 56px 89px;
+    grid-template-rows: repeat(23, 1fr)
+    border-collapse: collapse;
+}
+div.ship-hull span, 
+div.ship-hull h3 {
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding-left: 0px;
+}
+div.ship-hull input {
+    grid-column: 1 / span 2;
+}
