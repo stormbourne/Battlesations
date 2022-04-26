@@ -1,0 +1,24 @@
+    <div class="stats">
+        <!--stats-->
+        <h3>Statistics</h3>
+        <span>Base &hearts;</span>
+        <input type="number" name="attr_char_baseHP" />
+        <span class="hearts">&hearts;</span>
+        <input type="number" name="attr_char_trueHP" value="(@{char_ath}+@{char_rank}+@{char_baseHP})" disabled="true" />
+        <span>Movement</span>
+        <input type="number" name="attr_char_move" />
+        <span>Wounds</span>
+        <input type="number" name="attr_char_wounds" />
+        <span>Luck</span>
+        <input type="number" name="attr_char_luck" value="(@{char_rank}+5)" disabled="true" />
+        <span>Spent</span>
+        <input type="number" name="attr_char_lspen" />
+        <span>Target</span>
+        <input type="number" name="attr_char_target" />
+        <span>Rank</span>
+        <input type="number" name="attr_char_rank" value="1" max="12" min="1" />
+        <span>Hands</span>
+        <input type="number" name="attr_char_hands" />
+        <span>Carry</span>
+        <input type="number" name="attr_char_carry" value="(@{char_ath}*10)" disabled="true" />
+    </div>
