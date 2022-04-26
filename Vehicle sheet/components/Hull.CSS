@@ -1,4 +1,7 @@
 div.ship-hull {
+    border: 3pt solid black;
+}
+div.ship-hull {
     height: 642px;
     width: 142px;
     display: grid;
