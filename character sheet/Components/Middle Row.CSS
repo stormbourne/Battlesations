@@ -1,0 +1,8 @@
+div.middle-row {
+    grid-column: 1 / -1;
+}
+div.middle-row {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+}
