@@ -1,0 +1,11 @@
+div.ship-compliment {
+    border: 3pt solid black;
+}
+div.ship-compliment {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: repeat(3, 264px);
+}
+div.ship-compliment h3 {
+    border: 1px solid black;
+}
