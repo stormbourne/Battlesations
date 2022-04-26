@@ -1,0 +1,8 @@
+div.stats {
+    border: 3pt solid black;
+}
+div.stats {
+    display: grid;
+    grid-template-columns: 78px 60px 79px 60px;
+    column-gap: 5px;
+}
