@@ -1,4 +1,7 @@
 div.middle-row {
+    border: 3pt solid black;
+}
+div.middle-row {
     grid-column: 1 / -1;
 }
 div.middle-row {
