@@ -1,0 +1,175 @@
+.charsheet div.vehicle-sheet input[type="number"],
+.charsheet div.vehicle-sheet input[type="text"] {
+    width: auto;
+}
+.charsheet h3 {
+    background-color: darkblue;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.charsheet h4 {
+    background-color: lightgray;
+    text-align: center;
+}
+div.vehicle-sheet {
+    display:grid;
+    grid-template-columns: 650px 150px;
+    border-collapse: collapse;
+}
+div.ship-information,
+div.controls,
+div.ship-hull,
+div.ship-compliment {
+    border: 3pt solid black;
+}
+div.ship-information {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 80px 192px 70px 130px 60px 150px 40px 70px;
+}
+.navigable-section:not(.active) {
+    display: none;
+}
+.nav-button:not(.active) {
+    opacity: 0%;
+}
+.nav-button:hover {
+    opacity: 100%;
+}
+div.tabs {
+    position: relative;
+    z-index: 1;
+    opacity: 60%;
+}
+div.controls {
+    display: grid;
+    grid-template-columns: 650px;
+}
+div.ship-power,
+div.ship-floor-1,
+div.ship-floor-2,
+div.ship-floor-3,
+div.ship-floor-4,
+div.ship-floor-5 {
+    height: 642px;
+    width: 642px;
+    margin-top: -25px;
+}
+div.ship-power {
+    background-image: url("https://i.imgur.com/vAF0Rt6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+}
+div.ship-power div {
+    margin-top: -20px;
+    margin-left: -15px;
+}
+input[type="radio"] {
+    appearance: none;
+    border: none;
+}
+input[type="radio"] {
+    width: 101px;
+    height: 101px;
+    border-radius: 50%
+}
+div.ship-power input[type=radio] {
+    width: 55px;
+    height: 55px;
+    margin-bottom: -9px;
+}
+div.speed,
+div.helm,
+div.guns,
+div.shields {
+    position: relative;
+    top: 121px;
+}
+div.speed {
+    position: relative;
+    left: 95px;
+}
+div.speed input[type="radio"]:checked {
+    background-color: lightgrey;
+    opacity: 60%;
+}
+div.OOC {
+    position: relative;
+    top: 250px;
+    left: 152px
+}
+div.OOC input[type="radio"]:checked {
+    background-color: blue;
+    opacity: 40%;
+}
+div.helm {
+    position: relative;
+    left: 248px
+}
+div.helm input[type="radio"]:checked {
+    background-color: yellow;
+    opacity: 50%;
+}
+div.guns {
+    position: relative;
+    left: 305px
+}
+div.guns input[type="radio"]:checked {
+    background-color: red;
+    opacity: 50%;
+}
+div.shields {
+    position: relative;
+    left: 362px
+}
+div.shields input[type="radio"]:checked {
+    background-color: green;
+    opacity: 50%;
+}
+div.ship-floor-1,
+div.ship-floor-2,
+div.ship-floor-3,
+div.ship-floor-4,
+div.ship-floor-5 {
+    background-image: url("https://i.imgur.com/ez6Aliz.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 27px repeat(3, 89px) 90px repeat(3, 89px);
+    grid-template-rows: 27px repeat(3, 89px) 90px repeat(3, 89px);
+    border-collapse: collapse;
+}
+div.ship-floor-1 span,
+div.ship-floor-2 span,
+div.ship-floor-3 span,
+div.ship-floor-4 span,
+div.ship-floor-5 span {
+    border: 0px solid black;
+}
+div.ship-hull {
+    height: 642px;
+    width: 142px;
+    background-image: url("https://i.imgur.com/HdRcuDF.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 56px 89px;
+    grid-template-rows: repeat(23, 1fr)
+    border-collapse: collapse;
+}
+div.ship-hull span {
+    display: none;
+    text-align: center;
+}
+div.ship-compliment {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: repeat(3, 264px);
+}
+div.ship-compliment h3 {
+    border: 1px solid black;
+}
