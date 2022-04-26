@@ -1,0 +1,8 @@
+div.ship-information {
+    border: 3pt solid black;
+}
+div.ship-information {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 80px 192px 70px 130px 60px 150px 40px 70px;
+}
