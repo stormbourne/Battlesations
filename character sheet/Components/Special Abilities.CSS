@@ -1,0 +1,9 @@
+div.special-abilities {
+    border: 3pt solid black;
+}
+div.special-abilities {
+    grid-column: 1 / span 2;
+    display: grid;
+    border-collapse: collapse;
+    grid-template-columns: 126px 126px 70px 70px;
+}
