@@ -1,0 +1,11 @@
+div.basic-information {
+    border: 3pt solid black;
+}
+div.basic-information {
+    grid-column: 1;
+    display:grid;
+    grid-template-columns: 68px 1fr;
+}
+div.basic-information .offset {
+    grid-column: 2;
+}
