@@ -1,0 +1,15 @@
+div.ship-floor-1 {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 10% repeat(3, 1fr);
+    grid-template-rows: 10% repeat(3, 1fr);
+}
+div.ship-floor-1 span.border {
+    background-color: blue;
+    color: white;
+}
+div.ship-floor-1 span {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
